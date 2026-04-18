@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cnc-controller-opengl"
+version = "0.1.0"
+description = "PyQt5 CNC controller with OpenGL G-code viewer"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "PyQt5>=5.15,<6",
+    "PyOpenGL>=3.1,<4",
+    "pyserial>=3.5,<4",
+]
+
+[project.scripts]
+cnc-controller = "cnc_controller.main:main"
+
+[tool.setuptools.packages.find]
+include = ["cnc_controller*"]
