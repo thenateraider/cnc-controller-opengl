@@ -103,7 +103,7 @@ python -m compileall CNCwithOpenGLfix2.py cnc_controller
 
 ---
 
-## ภาษาไทย
+## โปรเจคจำลองการแสดงผล CNC ด้วย Python OpenGL
 
 โปรแกรมควบคุม CNC และดูเส้นทาง G-code ด้วย PyQt5 + OpenGL
 
